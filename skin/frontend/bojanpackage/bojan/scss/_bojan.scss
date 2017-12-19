@@ -1,0 +1,5 @@
+@include bp(max-width, 1024px) {
+    .products-grid li:nth-child(4) .product-image {
+        border-color:red;
+    }
+}
