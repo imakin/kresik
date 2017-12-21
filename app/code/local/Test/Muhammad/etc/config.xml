@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Test_Muhammad>
+            <version>0.0.1</version>
+        </Test_Muhammad>
+    </modules>
+    
+    <global>
+        <blocks>
+            <test_muhammad>
+                <class>Test_Muhammad_Block</class>
+            </test_muhammad>
+        </blocks>
+        <models>
+            <test_muhammad>
+                <class>Test_Muhammad_Model</class>
+            </test_muhammad>
+        </models>
+    </global>
+    
+    <frontend>
+        <routers>
+            <muhammad>
+                <use>standard</use>
+                <args>
+                    <module>Test_Muhammad</module>
+                    <frontName>muhammad</frontName>
+                </args>
+            </muhammad>
+        </routers>
+    </frontend>
+</config>
